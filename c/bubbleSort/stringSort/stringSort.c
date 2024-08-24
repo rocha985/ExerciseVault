@@ -25,7 +25,7 @@ int main() {
     scanf("%d", &n);
 
     if (n > MAX_STRINGS) {
-        printf("Error: Number of strings exceeds the maximum allowed (%d).\n", MAX_STRINGS);
+        printf("erro: numero de strings excede o maximo permitido (%d).\n", MAX_STRINGS);
         return 1;
     }
 
@@ -36,7 +36,7 @@ int main() {
 
     bubbleSortStrings(strings, n);
 
-    printf("\nStrings em ordem alfabetica:\n");
+    printf("\nstrings em ordem alfabetica:\n");
     for (int i = 0; i < n; i++) {
         printf("%s\n", strings[i]);
     }
