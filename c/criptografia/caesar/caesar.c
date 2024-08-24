@@ -5,7 +5,7 @@
 
 #define MAX_LENGTH 1000
 
-char encrypt_char(char c, int key) {
+char encrypt(char c, int key) {
     if (isupper(c)) {
         return ((c - 'A' + key) % 26) + 'A';
     } else if (islower(c)) {
@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
 
     printf("ciphertext: ");
     for (int i = 0; pt[i] != '\0'; i++) {
-        printf("%c", encrypt_char(pt[i], key));
+        printf("%c", encrypt(pt[i], key));
     }
     printf("\n");
 
