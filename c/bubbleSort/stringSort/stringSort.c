@@ -6,7 +6,7 @@
 void bubbleSortStrings(char strings[][100], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
-            if (strcmp(strings[j], strings[j + 1]) > 0) {  // Corrected parentheses here
+            if (strcmp(strings[j], strings[j + 1]) > 0) {
                 char temp[100];
 
                 strcpy(temp, strings[j]);
