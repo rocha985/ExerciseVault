@@ -8,9 +8,11 @@
 char encrypt(char c, int key) {
     if (isupper(c)) {
         return ((c - 'A' + key) % 26) + 'A';
-    } else if (islower(c)) {
+    }
+    else if (islower(c)) {
         return ((c - 'a' + key) % 26) + 'a';
-    } else {
+    }
+    else {
         return c;
     }
 }
