@@ -22,8 +22,8 @@ def is_valid(s):
             has_number_started = True
         elif has_number_started:
             return False
-
     return True
 
 
-main()
+if __name__ == "__main__":
+    main()
