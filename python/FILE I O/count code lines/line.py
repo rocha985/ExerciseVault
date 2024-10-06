@@ -23,7 +23,7 @@ def main():
         line_count = count_lines(filename)
         print(line_count)
 
-    except (ValueError, FileNotFoundError) as e:
+    except (ValueError) as e:
         sys.exit(e)
 
 if __name__ == "__main__":

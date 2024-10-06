@@ -25,13 +25,10 @@ def main():
         data = read_csv_file(filename)
         print(tabulate(data, headers="keys", tablefmt="grid"))
 
-    except (ValueError, FileNotFoundError) as e:
+    except (ValueError) as e:
         print(e, file=sys.stderr)
         sys.exit(1)
 
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}", file=sys.stderr)
-        sys.exit(1)
 
 if __name__ == "__main__":
     main()
