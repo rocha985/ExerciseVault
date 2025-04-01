@@ -12,4 +12,4 @@ Este repositório contém uma coleção de exercícios e desafios de programaç�
 
 ## Estrutura do Repositório
 
-Cada linguagem possui sua própria pasta, organizada por tipo de exercício ou desafio. O repositório é atualizado regularmente com novos exercícios e soluções.
+Cada linguagem possui sua própria pasta, organizada por tipo de exercício ou desafio. O repositório é atualizado regularmente com novos exercícios e soluções. 
